@@ -304,6 +304,8 @@ button:focus {
     justify-content: center;
     margin-top: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 40px;
+    height: 40px;
 }
 
 .social-link:hover,
@@ -351,6 +353,31 @@ button:focus {
 
 .fourth-round-list {
     width: calc((100% - 48px) /3);
+}
+
+.hidden-four {
+    position: relative;
+    overflow: hidden;
+}
+
+.hidden-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(100%);
+    padding: 40px 32px;
+    position: absolute;
+    top: 0;
+}
+
+.hidden-four:focus .hidden-text,
+.hidden-four:hover .hidden-text {
+    transform: translateY(0%);
 }
 
 .app-container {
