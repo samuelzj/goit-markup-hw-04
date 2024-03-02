@@ -64,13 +64,11 @@ header {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #404bbf;
+    color: #4d5ae5;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo:first-child {
@@ -95,6 +93,23 @@ header {
     text-decoration: none;
     padding: 24px 0;
     color: #2e2f42;
+}
+
+.other {
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404bbf;
+}
+
+.other::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .link:hover,
