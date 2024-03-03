@@ -89,8 +89,6 @@ header {
 }
 
 .link {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
     text-align: center;
     text-decoration: none;
     padding: 24px 0;
@@ -330,10 +328,6 @@ button:focus {
 }
 
 .team-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
     margin-bottom: 8px;
