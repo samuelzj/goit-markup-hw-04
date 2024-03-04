@@ -374,9 +374,6 @@ button:focus {
 }
 
 .hidden-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #f4f4fd;
     background-color: #4d5ae5;
     height: 100%;
@@ -409,10 +406,6 @@ button:focus {
 }
 
 .portfolio-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #434455;
 }
 
